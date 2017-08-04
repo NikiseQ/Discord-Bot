@@ -6,7 +6,7 @@ client.on('ready', () => {
   console.log('I am ready!');
 });
 
-client.User.setGame(Playing);
+bot.user.setGame('GAME HERE');
 
 client.on('message', message => {
   if (message.content === 'jeff') {
