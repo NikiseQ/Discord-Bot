@@ -5,7 +5,7 @@ const Playing = "say jeff";
 client.on('ready', () => {
   console.log('I am ready!');
 });
-string gameName = "yourGame";
+
 client.User.setGame(Playing);
 
 client.on('message', message => {
