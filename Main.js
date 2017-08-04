@@ -1,12 +1,12 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-Game Playing = new Game(gameName, GameType.Default, "say jeff");
+const Playing = "say jeff";
 
 client.on('ready', () => {
   console.log('I am ready!');
 });
 string gameName = "yourGame";
-discordClient.SetGame(Playing);
+client.User.setGame(Playing);
 
 client.on('message', message => {
   if (message.content === 'jeff') {
