@@ -1,0 +1,2 @@
+# Discord-Bot
+DiscordJS Bot
