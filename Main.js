@@ -6,8 +6,8 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-  if (message.content === 'ping') {
-    message.reply('pong');
+  if (message.content === 'jeff') {
+    message.channel.sendMessage('My name is Jeff!');
   }
 });
 
